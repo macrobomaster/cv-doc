@@ -1,10 +1,4 @@
----
-description: How to setup runtime and development environment for running openCV on Ubuntu.
----
+# cv-doc
 
-# Setup Development Environment
-
-## balabala
-
-balasdasd
+Documentation for Computer Vision Projects
 
