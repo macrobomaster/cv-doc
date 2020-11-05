@@ -1,5 +1,6 @@
 # Table of contents
 
-* [Introduction](Intro.md)
+* [Introduction](README.md)
+* [Welcome](intro.md)
 * [Sample Markdown](sample.md)
 

@@ -1,16 +1,18 @@
 # Sample Markdown
 
-# h1 Heading
+## Sample Markdown
 
-## h2 Heading
+## h1 Heading
 
-### h3 Heading
+### h2 Heading
 
-#### h4 Heading
+#### h3 Heading
 
-## Horizontal Rules
+**h4 Heading**
 
-## Typographic replacements
+### Horizontal Rules
+
+### Typographic replacements
 
 Enable typographer option to see result.
 
@@ -22,7 +24,7 @@ test.. test... test..... test?..... test!....
 
 "Smartypants, double quotes" and 'single quotes'
 
-## Emphasis
+### Emphasis
 
 **This is bold text**
 
@@ -34,7 +36,7 @@ _This is italic text_
 
 ~~Strikethrough~~
 
-## Blockquotes
+### Blockquotes
 
 > Blockquotes can also be nested...
 >
@@ -42,7 +44,7 @@ _This is italic text_
 > >
 > > > ...or with spaces between arrows.
 
-## Lists
+### Lists
 
 Unordered
 
@@ -67,7 +69,7 @@ Start numbering with offset:
 1. foo
 2. bar
 
-## Code
+### Code
 
 Inline `code`
 
@@ -96,7 +98,7 @@ var foo = function (bar) {
 console.log(foo(5));
 ```
 
-## Tables
+### Tables
 
 | Option | Description |
 | :--- | :--- |
@@ -112,7 +114,7 @@ Right aligned columns
 | engine | engine to be used for processing templates. Handlebars is the default. |
 | ext | extension to be used for dest files. |
 
-## Links
+### Links
 
 [link text](http://dev.nodeca.com)
 
@@ -120,7 +122,7 @@ Right aligned columns
 
 Autoconverted link [https://github.com/nodeca/pica](https://github.com/nodeca/pica) \(enable linkify to see\)
 
-## Images
+### Images
 
 ![Minion](https://octodex.github.com/images/minion.png) ![The Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg)
 
@@ -130,11 +132,11 @@ Like links, Images also have a footnote style syntax
 
 With a reference later in the document defining the URL location:
 
-## Plugins
+### Plugins
 
 The killer feature of `markdown-it` is very effective support of [syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
 
-### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
+#### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
 
 > Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
 >
@@ -142,20 +144,20 @@ The killer feature of `markdown-it` is very effective support of [syntax plugins
 
 see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
 
-### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
+#### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
 
 * 19^th^
 * H~2~O
 
-### [\](https://github.com/markdown-it/markdown-it-ins)
+#### [\](https://github.com/markdown-it/markdown-it-ins)
 
 ++Inserted text++
 
-### [\](https://github.com/markdown-it/markdown-it-mark)
+#### [\](https://github.com/markdown-it/markdown-it-mark)
 
 ==Marked text==
 
-### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
+#### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
 
 Footnote 1 link.
 
@@ -169,7 +171,7 @@ Duplicated footnote reference.
 and multiple paragraphs.
 ```
 
-### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
+#### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
 
 Term 1
 
@@ -191,7 +193,7 @@ Term 1 ~ Definition 1
 
 Term 2 ~ Definition 2a ~ Definition 2b
 
-### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
+#### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
 
 This is HTML abbreviation example.
 
@@ -199,7 +201,7 @@ It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
 
 \*\[HTML\]: Hyper Text Markup Language
 
-### [Custom containers](https://github.com/markdown-it/markdown-it-container)
+#### [Custom containers](https://github.com/markdown-it/markdown-it-container)
 
 ::: warning _here be dragons_ :::
 
