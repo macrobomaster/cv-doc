@@ -205,10 +205,11 @@ It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
 
 ::: warning _here be dragons_ :::
 
-```mermaid
+```text
 graph LR
 A[State 00] -- 0/1 --> B((State 01))
 A --> C(State 10)
 B --> D{State 11}
 C --> D
 ```
+
