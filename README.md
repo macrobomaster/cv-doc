@@ -1,25 +1,40 @@
-# Introduction
+# Welcome to the Computer Vision
 
-## Getting Super Powers
+This is the official documentation for the framework/libraries and knowledgebase by the computer vision sub team.
 
-Becoming a super hero is a fairly straight forward process:
+{% code title="helloworld.cpp" %}
+```cpp
+#include "opencv2/opencv.hpp"
+#include "opencv2/highgui/highgui.hpp"
 
-```
-$ give me super-powers
-```
+using namespace cv;
 
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
-
-Once you're strong enough, save the world:
-
-{% code title="hello.sh" %}
-```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
+int main(int argc, char** argv) {
+    
+    //create a gui window:
+    namedWindow("Output",1);
+    
+    //initialize a 120X350 matrix of black pixels:
+    Mat output = Mat::zeros( 120, 350, CV_8UC3 );
+    
+    //write text on the matrix:
+    putText(output,
+            "Hello World :)",
+            cvPoint(15,70),
+            FONT_HERSHEY_PLAIN,
+            3,
+            cvScalar(0,255,0),
+            4);
+    
+    //display the image:
+    imshow("Output", output);
+    
+    //wait for the user to press any key:
+    waitKey(0);
+    
+    return 0;
+    
+}
 ```
 {% endcode %}
-
-
 
