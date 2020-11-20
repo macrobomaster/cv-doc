@@ -1,4 +1,4 @@
-# Download and Install JetPack
+# Download and Install JetPack (for TX2 only)
 
 This document is intended to help you get familiar with installing JetPack, using the tools, and running sample code.
 
